@@ -56,7 +56,7 @@ import p_img52 from './p_img52.png'
 
 
 import logo from './logo.png'
-import hero_img from './hero_img.png'
+import hero_img from './hero_img.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -106,7 +106,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L"],
         date: 1716634345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaab",
@@ -118,7 +118,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
         date: 1716621345448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaac",
@@ -142,19 +142,19 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "XXL"],
         date: 1716621345448,
-        bestseller: true
+        bestseller: false
     },
     {
-        _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
+        _id: "aaaby",
+        name: "Women Zip-Front Relaxed Fit Jacket",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img5],
+        price: 320,
+        image: [p_img51],
         category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: true
+        subCategory: "Winterwear",
+        sizes: ["S", "M", "L", "XL"],
+        date: 1716667345448,
+        bestseller: false
     },
     {
         _id: "aaaaf",
@@ -166,7 +166,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "L", "XL"],
         date: 1716623423448,
-        bestseller: true
+        bestseller: false
     },
     {
         _id: "aaaag",
@@ -394,7 +394,7 @@ export const products = [
         subCategory: "Topwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716638745448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaaaz",
@@ -574,7 +574,7 @@ export const products = [
         subCategory: "Winterwear",
         sizes: ["S", "M", "L", "XL"],
         date: 1716655245448,
-        bestseller: false
+        bestseller: true
     },
     {
         _id: "aaabo",
@@ -693,19 +693,19 @@ export const products = [
         category: "Kids",
         subCategory: "Bottomwear",
         sizes: ["S", "M", "L", "XL"],
-        date: 1716666245448, bestseller: false
+        date: 1716666245448, bestseller: true
     },
     {
-        _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
+        _id: "aaaae",
+        name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img51],
+        price: 130,
+        image: [p_img5],
         category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716667345448,
-        bestseller: false
+        subCategory: "Topwear",
+        sizes: ["M", "L", "XL"],
+        date: 1716622345448,
+        bestseller: true 
     },
     {
         _id: "aaabz",
